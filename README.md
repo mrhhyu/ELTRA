@@ -1,2 +1,2 @@
 # CIKM23
-This anonymous repository provides the proof of CRW scors' properties via the embedded .pdf file.
+This anonymous repository provides a proof for CRW scores' properties via the embedded .pdf file.
