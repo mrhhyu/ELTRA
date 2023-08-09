@@ -44,7 +44,7 @@ S_{k+1}(u,v) \!-\! S_{k}(u,v)\! =  \! \frac{C}{2}\! \cdot\! \big(\frac{\sum_{i \
 
 according to the assumptions, $`S_k(u,v)\! -\! S_{k-1}(u,v) \!\ge\! 0`$ and we already know that $`C\! > \!0`$ therefore, $`S_{k+1}(u,v) \!- \!S_k(u,v) \!\ge\! 0`$, which means $`S_{k+1}(u,v) \!\ge\! S_k(u,v)`$.
 
-**(4) Existence: the fixed points $`S(*,*)`$ of the CRW equation always exists.**
+**(4) Existence: the fixed point $`S(*,*)`$ of the CRW equation always exists.**
 
 ***Proof*:** By the bounding and monotonicity properties, for any node-pairs $`(u,v)`$, $`S_k(u,v)`$ is bounded and non-decreasing as $`k`$ increases. A sequence $`S_k(u,v)`$ converges to $`\lim S(u,v) \!\in\! [0,1]`$, according to the Completeness Axiom of calculus. $`\displaystyle\lim_{k\to\infty} S_{k+1}(u,v) \!=\! \displaystyle\lim_{k\to\infty} S_k(u,v)\! =\! S(u,v)`$ and the limit of a sum is identical to the sum of the limits, therefore
 
