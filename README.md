@@ -8,7 +8,7 @@ ELTRA is a novel effective similarity-based double-vector **E**mbedding method b
 This repository will be updated soon. 
 
 Thank you
-
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
 ## Citation:
 > Masoud Reyhani Hamedani, Jin-Su Ryu, and Sang-Wook Kim. 2023. An Embedding Method based on Learning-to-Rank to Preserve Asymmetric Information in Directed Graphs. In Proceedings of CIKM'23
