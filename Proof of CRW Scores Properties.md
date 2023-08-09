@@ -1,4 +1,4 @@
-# In this Appendix, we prove that the CRW scores are ***asymmetric***, ***bounded***, ***monotonic***, ***unique***, and ***always existent***.
+## In this Appendix, we prove that the CRW scores are ***asymmetric***, ***bounded***, ***monotonic***, ***unique***, and ***always existent***.
 
 
 **(1) Asymmetry: for every node-pair $`(u,v)`$ where $`u\!\neq \!v`$, $`S(u,v)\! \neq \!S(v,u)`$.**
