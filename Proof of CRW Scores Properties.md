@@ -29,7 +29,7 @@ S_{k+1}(u,v) \! =  \! \frac{C}{2}\! \cdot\! \big(\frac{\sum_{i \in O_u} S_{k}(i,
 ```
 since $`0 \!< \!C\! <\! 1`$, then $`S_{k+1}(u,v) \!\le \!1`$.
 
-**(3) Monotonicity: for every node-pair $`(u,v)`$, the sequence \{$`S_k(u,v)`$\} is non-decreasing as $`k`$ increases.**
+**(3) Monotonicity: for every node-pair $`(u,v)`$, the sequence \{$`S_0(u,v), S_1(u,v), ..., S_k(u,v)`$\} is non-decreasing as $`k`$ increases.**
 
 ***Proof*:** If $`u\!=\!v`$, $`S_0(u,v) \!=\! S_1(u,v) \!=\! \cdots \!=\! 1`$; thus, the property holds. If $`u \!\neq\! v`$, according to Equation (2), $`S_0(u,v)\!=\!0`$ and by the bounding property, $`0 \!\le S_1(u,v)\! \le 1`$; therefore, $`S_0(u,v)\! \le \!S_1(u,v)`$, which means the property holds for $`k\!=\!0`$. We assume that the property holds for all $`k`$ where $`S_{k-1}(u,v) \! \le \!S_k(u,v) `$ for *any* node-pairs $`(u,v)`$, which means $`S_k(u,v)\!-\! S_{k-1}(u,v) \!\ge\! 0`$; we show the property holds for $`k\!+\!1`$ as follows:
 ```math
