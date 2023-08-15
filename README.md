@@ -10,5 +10,6 @@ This repository will be updated soon.
 Thank you
 
 ## Citation:
-> Masoud Reyhani Hamedani, Jin-Su Ryu, and Sang-Wook Kim. 2023. An Embedding Method based on Learning-to-Rank to Preserve Asymmetric Information in Directed Graphs. In Proceedings of CIKM'23
+> Masoud Reyhani Hamedani, Jin-Su Ryu, and Sang-Wook Kim. 2023. An Embedding Method based on Learning-to-Rank to Preserve Asymmetric Information in Directed Graphs. In Proceedings of the 32th ACM International Conference on Information and Knowledge Management, October 2023, Pages xx–xx. https://doi.org/10.1145/3583780.3614862
+
 
