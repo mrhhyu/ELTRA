@@ -9,8 +9,8 @@ This repository will be updated soon.
 
 Thank you
 
-## CRW scores are ***asymmetric***, ***bounded***, ***monotonic***, ***unique***, and ***always existent***.
-
+## CRW Scores Properties
+In this Appendix, we prove that the CRW scores are _asymmetric_, _bounded_, _monotonic_, _unique_, and _always existent_.
 
 **(1) Asymmetry: for every node-pair $`(u,v)`$ where $`u\!\neq \!v`$, $`S(u,v)\! \neq \!S(v,u)`$.**
 
