@@ -1,6 +1,6 @@
 # ELTRA: An Embedding Method based on Learning-to-Rank to Preserve Asymmetric Information in Directed Graphs
 
-This repository provides a reference implementation of ELTRA as well as access to the data.
+This repository provides (1) a reference implementation of ELTRA, (2) the data, and (3) the proof for CRW scores properties.
 
 ## Installation and usage
 ELTRA is a novel similarity-based double-vector **E**mbedding method based on listwise Learning-**T**o-**R**ank (LTR) that preserves **A**symmetric information in directed graphs. It is straightforward embedding method implemented by a simple deep neural network consisting of only a projection layer and an output layer.
