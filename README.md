@@ -18,7 +18,7 @@ In this Appendix, we prove that the CRW scores are _asymmetric_, _bounded_, _mon
 
 **(2) Bounding: for all $`k`$,  $`0 \!\le \!S_k(u,v) \!\le\! 1`$.**
 
-***Proof* :** According to Equation (2), if $`u\! \neq \!v`$, then $`S_0(u,v)\!=\!0`$, otherwise $`S_0(u,v)\!=\!1`$; therefore $`0 \!\le \!S_0(u,v)\! \le \!1`$. It means the property holds for $`k\!=\!0`$. Now, we assume that the property holds for $`k`$, which means $`0\! \le\! S_k(u,v)\! \le\! 1`$ for *any* node-pairs $`(u,v)`$; according to the assumption $`S_k(u,v) \!\ge\! 0`$, thus
+***Proof* :** As mentioned in Section 3.1.2, if $`u\! \neq \!v`$, then $`S_0(u,v)\!=\!0`$, otherwise $`S_0(u,v)\!=\!1`$; therefore $`0 \!\le \!S_0(u,v)\! \le \!1`$. It means the property holds for $`k\!=\!0`$. Now, we assume that the property holds for $`k`$ such that $`0\! \le\! S_k(u,v)\! \le\! 1`$ for *any* node-pairs $`(u,v)`$ and we prove that the property also holds for $`k\!+\!1`$ as follows. If $`u\! \neq \!v`$, $`S_{k+1}(u,v)`$ is computed by Equation (2) and according to our assumption, we know that $`S_k(u,v) \!\ge\! 0`$, thus
 
 ```math
 S_{k+1}(u,v) \! =  \! \frac{C}{2}\! \cdot\! \big(\frac{\sum_{i \in O_u} S_{k}(i,v)}{|O_u|}\! +\! \frac{\sum_{j \in I_u}S_{k}(j,v)}{|I_u|}  \big) \\
@@ -27,7 +27,7 @@ S_{k+1}(u,v) \! =  \! \frac{C}{2}\! \cdot\! \big(\frac{\sum_{i \in O_u} S_{k}(i,
 \ge  \! \frac{C}{2}\! \cdot\! \big(\frac{\sum_{i \in O_u} (0)}{|O_u|}\! +\! \frac{\sum_{j \in I_u}(0)}{|I_u|}  \big)
 \ge \! 0
 ```
-also, according to the assumption $`S_k(u,v) \!\le \!1`$, thus
+also, according to the assumption, we have $`S_k(u,v) \!\le \!1`$, thus
 
 ```math
 S_{k+1}(u,v) \! =  \! \frac{C}{2}\! \cdot\! \big(\frac{\sum_{i \in O_u} S_{k}(i,v)}{|O_u|}\! +\! \frac{\sum_{j \in I_u}S_{k}(j,v)}{|I_u|}  \big)
@@ -38,7 +38,7 @@ S_{k+1}(u,v) \! =  \! \frac{C}{2}\! \cdot\! \big(\frac{\sum_{i \in O_u} S_{k}(i,
 ```math
 \le \! \frac{C}{2}\! \cdot\! \big(1 +1  \big) \le \! C
 ```
-since $`0 \!< \!C\! <\! 1`$, then $`S_{k+1}(u,v) \!\le \!1`$.
+since $`0 \!< \!C\! <\! 1`$, then $`S_{k+1}(u,v) \!< \!1`$; these denote that $`0\! \le\! S_{k+1}(u,v)\! <\! 1`$. Also, if $`u\!=\!v`$, $`S_{k+1}(u,v)\!=\!1`$; finally, $`0\! \le\! S_{k+1}(u,v)\! \le \! 1`$.
 
 **(3) Monotonicity: for every node-pair $`(u,v)`$, the sequence \{$`S_0(u,v), S_1(u,v), ..., S_k(u,v)`$\} is non-decreasing as $`k`$ increases.**
 
