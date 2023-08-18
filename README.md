@@ -12,7 +12,7 @@ Although ELTRA is originally a double-vector embedding method for directed graph
 
 (2) The top-_t_ closet nodes are selected based on the above symmetric scores _without_ applying the $`AP\!=\!\bar{A}\! \odot \!X`$ part of Equation (6).
 
-(3) Eeach node is represented by two latent vectors (i.e., source and target).
+(3) Each node is represented by two latent vectors (i.e., source and target).
 
 This repository will be updated soon. 
 
