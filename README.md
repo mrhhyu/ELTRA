@@ -8,7 +8,7 @@ ELTRA is a novel similarity-based double-vector **E**mbedding method based on li
 ### ELTRA with Undirected Graphs
 Although ELTRA is originally a double-vector embedding method for directed graphs, it is **applicable** to undirected graphs as well. In this case:
 
-(1) The _symmetric_ scores are computed as follows where $`X \! =  \! \frac{C}{2}\! \cdot\! \big(\omega\! \cdot\! Q \!\cdot\! X \!+ \!(1\!-\!\omega)\! \cdot\! W^T\! \cdot \! X \big) \!\vee\! I`$ is calculated by Equation (6) and finaly $`X\!=\!0.5 \!\cdot\! (X\!+\!X^T)`$.
+(1) The _symmetric_ scores are computed as follows $`X\!=\!0.5 \!\cdot\! (X\!+\!X^T)`$ where $`X \! =  \! \frac{C}{2}\! \cdot\! \big(\omega\! \cdot\! Q \!\cdot\! X \!+ \!(1\!-\!\omega)\! \cdot\! W^T\! \cdot \! X \big) \!\vee\! I`$ is calculated by Equation (6).
 
 (2) The top-_t_ closet nodes are selected based on the above symmetric scores _without_ applying the $`AP\!=\!\bar{A}\! \odot \!X`$ part of Equation (6).
 
