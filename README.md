@@ -56,7 +56,7 @@ ELTRA has the following parameters:
 
 --wait_thr: Number of epochs with no loss improvement after which the training will be stopped, default is 20
 
---gpu: The flag indicating to run GELTOR on GPU, default is True
+--gpu: The flag indicating to run ELTRA on GPU, default is True
 
 --graph_type: Indicates the graph type (directed or undirected), default is directed
 
