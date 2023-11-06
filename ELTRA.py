@@ -57,7 +57,7 @@ def LTRG(args):
     if args.bch==-1: # calculating batch size for the input graph
         args.bch = pow(2, round(math.log2(len(top_indices)*0.05)))  
         if args.bch<1:
-            print('*** Computed bch values ({}) is invalid! set the bch value manually ***'.format(args.bch))
+            print('*** Computed bch values ({}) is invalid; probably the graph is very small! set the bch value manually ***'.format(args.bch))
             print('')
             return
         print('The batch size is computed and set as {}'.format(args.bch),'\n')
