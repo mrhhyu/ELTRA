@@ -59,7 +59,8 @@ def LTRG(args):
         if args.bch<1:
             print('*** Computed bch values ({}) is invalid! set the bch value manually ***'.format(args.bch))
             print('')
-            return                                                 
+            return
+        print('The batch size is computed and set as {}'.format(args.bch),'\n')
     print(args,'\n')
     info = args.result_dir+args.dataset_name+'_ELTRA_Imf_'+str(args.impr*10).split('.')[0]+'_IT'+str(args.itr)+'_Reg'+str(args.reg).split('.')[1]+'_dim'+str(args.dim)+'_bch'+str(args.bch)+'_Top'+str(args.topk)
 
