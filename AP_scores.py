@@ -31,7 +31,7 @@ def AP_Scores_ (graph='', iterations=0, damping_factor=0.8,  impr_fact = 0.80, t
     if topK == -1: ## calculating topK for the input graph
         topK = round(G.number_of_edges()/G.number_of_nodes())*20    
         print("TopK is calculated and set as '{}' ...".format(topK)+'\n')
-        if G.number_of_edges()<=topK: ## if graph has few nubmder of nodes
+        if G.number_of_edges()<=topK: ## if graph has few number of nodes
             print('*** topK {} is larger than the number of nodes in the graph! set the topK value manually ***'.format(topK))
             print('')
             return 
