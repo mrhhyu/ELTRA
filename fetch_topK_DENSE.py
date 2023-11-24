@@ -5,7 +5,7 @@ Created on Jul 7, 2022
 '''
 import numpy as np
 
-def get_weighted_listMLE_topK(result_matrix, topK, scale=10, size='all'):    
+def get_weighted_listMLE_topK(result_matrix, topK):    
     '''
         prepares the required information for 'Weighted_DCG_ListMLE_topK' loss function
         
