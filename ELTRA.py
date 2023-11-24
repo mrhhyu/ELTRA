@@ -33,7 +33,7 @@ def get_model(dim,out_len, learning_rate, reg_rate):
     model.compile(optimizer = tf.keras.optimizers.RMSprop(learning_rate), loss = Weighted_DCG_ListMLE_topK(), run_eagerly = True)
     return model
 
-def LTRG(args):
+def ELTRA(args):
     print()
     if not os.path.exists(args.graph):
         print('ERROR: graph is invalid ...!')
@@ -123,4 +123,4 @@ def parse_args(graph='',dataset_name='',result_dir='result_test/', dimension=128
 if __name__ == "__main__":
     
     args = parse_args()
-    LTRG(args)
+    ELTRA(args)
