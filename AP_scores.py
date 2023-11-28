@@ -17,9 +17,9 @@ def AP_Scores_ (graph='', iterations=0, damping_factor=0.8,  impr_fact = 0.80, t
             3- In the case of undirected graphs, Symmetric AP-socres are computed        
     '''
     if topK != -1:
-        print("Starting AP-score computation with '{}' on '{}' itrations, top '{}', and C '{}'...".format(graph,iterations,topK,damping_factor)+'\n')  
+        print("Computing AP-scores with '{}' on '{}' itrations, top '{}', and C '{}'...".format(graph,iterations,topK,damping_factor)+'\n')  
     else:
-        print("Starting AP-score computation with '{}' on '{}' itrations, and C '{}'...".format(graph,iterations,damping_factor)+'\n')
+        print("Computing AP-scores with '{}' on '{}' itrations, and C '{}'...".format(graph,iterations,damping_factor)+'\n')
                        
     #============================================================================================
         # reading graph with networkX
