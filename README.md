@@ -2,7 +2,7 @@
 
 This repository provides (1) the reference implementation of ELTRA, (2) the Python implementation of CRW, (3) the data, and (4) the proof for CRW scores properties.
 
-## Installation and usage
+## Installation and Usage
 ELTRA is a novel similarity-based double-vector **E**mbedding method based on listwise Learning-**T**o-**R**ank (LTR) that preserves **A**symmetric information in directed graphs. It is straightforward embedding method implemented by a simple deep neural network consisting of only a projection layer and an output layer. 
 In order to run ELTRA, the following packages are required:
 ```
@@ -15,7 +15,7 @@ scikit-learn >=1.0.*
 ```
 
 ELTRA can be run directly from the command line or migrated to your favorite IDE.
-### Graph file format
+### Graph File Format
 A graph must be represented as a text file under the *edge list format* in which, each line corresponds to an edge in the graph, tab is used as the separator of the two nodes, and the node index is started from 0. 
 
 ### ELTRA with Undirected Graphs
